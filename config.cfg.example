@@ -1,0 +1,30 @@
+[SMTP]
+# Email configuration for notifications
+SMTP_FROM_ADDRESS = your-email@example.com
+SMTP_TO_ADDRESS = your-email@example.com
+SMTP_HOST = smtp.example.com
+SMTP_PORT = 587
+SMTP_USERNAME = your-username
+SMTP_PASSWORD = your-password
+
+[GENERAL]
+# Comic site access configuration
+COMIC_SITE_LOGIN_URL = https://www.example-comic-site.com/login
+COMIC_SITE_WANT_LIST_URL = https://www.example-comic-site.com/wantlist?
+COMIC_SITE_ADD_TO_CART_URL = https://www.example-comic-site.com/cart?
+COMIC_SITE_USER_NAME = your-username
+COMIC_SITE_PASSWORD = your-password
+
+# How often to check for new comics (in seconds)
+# 3600 = 1 hour, 86400 = 1 day
+CHECK_INTERVAL_SECONDS = 3600
+
+# Set to true to enable email notifications
+SEND_NOTIFICATIONS = true
+
+# Set to true to automatically add items to cart when found
+AUTO_ADD_TO_CART = false
+
+# Comma-separated list of strings to exclude from messages
+# Example: "Not For Sale,Pre-Order"
+ITEM_MESSAGE_EXCLUDE_FILTERS = Not For Sale 

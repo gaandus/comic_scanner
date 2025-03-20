@@ -1,0 +1,17 @@
+
+# Cache files
+item_cache.xml
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# OS specific files
+.DS_Store
+Thumbs.db 
