@@ -6,7 +6,7 @@ A Python script that monitors a comic book site for items on your want list and 
 
 The script follows this workflow to monitor for new comic availability:
 
-![Comic Scanner Workflow](comic_scanner_flowchart.png)
+![Comic Scanner Workflow](ComicTracker.png)
 
 ## Features
 
